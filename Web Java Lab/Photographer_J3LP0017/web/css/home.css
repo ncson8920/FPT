@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 12, 2021, 4:44:29 PM
+    Author     : Admin
+*/
+
+body{
+    margin: 0;
+    position: relative;
+    background-color: #aa4043;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: auto;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    height: 100%;
+}
+.container {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+.main{
+    height: auto;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-bottom: 100px; 
+}
+.left{
+    width: 70%;
+    height: auto;
+    padding: 22px 0;
+
+}
+.image img{
+    width: 100%;
+    height: auto 
+}
+.right{
+    padding: 22px;
+    padding-right: 0;
+    width: 30%;
+    height: auto;
+    font-size: 16px;
+}
+.description{
+    padding: 6px;
+    font-style: italic;
+    font-size: 14.4px;
+    line-height: 17.82px;
+    color: #fff;
+}
+.content{
+    width: 100%;
+}
+.contentGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentGallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.contentGallery .subImg {
+    width: 20%;
+    background-color: white;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.subImg img {
+    width: 100%;
+    height: 100%;
+}
+.test{
+    display: none;
+}
+.imageGallery img{
+    width: 100%;
+    height: auto ;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    display: block;
+}
+.prev, .next {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: -250px
+}
+
+.next {
+    margin-left: 600px
+}
+.content ul{
+    padding: 0;
+    display: inline-block;
+    width: 105%;
+}
+.content img{
+    width: 100%;
+    height: auto;
+}
+.content li{
+    padding: 10px;
+    display:inline-table;
+    width: 29%;
+}
+.content li h4{        
+    line-height: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 11px 0;
+    color: inherit;
+}
+.content li h4 a{           
+    color: white;
+}
+.content li p{        
+    font-size: 16px;
+    color: #ffffff;
+}
+.about{
+    color: #ffffff;
+    padding: 9.6px 0;
+    margin: 0;
+    line-height: 32.8px;
+    font-size: 28px
+}
+.about h3{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+.about-detail{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 11px 0 22px;
+}
+
+.country p {
+    color: white;        
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+.content-contact h4{
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.infor p{
+    color: white;
+    font-size: 16px;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+.content-contact{
+    margin-top: 22px;
+}
+.header-right{
+    height: auto;
+    background-color: #303030;
+    margin: 0;
+    padding: 7px 15px;
+    /*width: 100%;*/
+}
+.header-right h4{
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+    color: #ffffff;
+    margin: 0;
+}
+.social{   
+    width: 100%;
+    height: auto;
+    background-color: rgba(170, 64, 67, 0.4);
+}
+.social ul{
+    margin: 0;
+    list-style: none;
+    padding: 15px 15px;
+}
+.social ul li{
+    line-height: 22px;
+}
+img{
+    margin-top: 2px;
+
+}
+.social ul li a{
+    color: #ffffff;
+}
+@media screen and (max-width: 980px) {
+    .main{
+        display:block;
+    }
+    .left{
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content img{
+        width: 75%;
+
+    }
+    .content li{
+        width: auto;
+    }
+    .right{
+        width: auto;
+    }
+    .header-right{
+        width:auto;
+    }
+    .social{
+        width:auto;
+    }
+    .prev, .next {
+        margin-top: -350px
+    }
+
+    .next {
+        right:4%;
+    }
+}
